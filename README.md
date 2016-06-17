@@ -42,6 +42,8 @@ uri格式：map/{lati}/{longi}/{zoom}
 
 spring boot部署到localhost时使用自带服务器，故对容器没有要求。
 
+服务的逻辑实现依赖百度WebAPI，运行及使用项目的服务时需要保证机器联网。
+
 ##4、部署及使用说明
 
 使用eclipse导入项目"adweblab2"，运行"Application.java"，即启动项目的服务，项目将被部署到localhost:8080，中断运行可停止服务。
