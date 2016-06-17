@@ -16,13 +16,13 @@ REST架构的学习和实践
 
 项目后台实现了restful的两个服务，分别是place服务和map服务。
 
-place服务：
+####place服务：
 
 uri格式：place/{placeName}
 
 功能：返回基于“placeName”字符串的地点搜索列表，返回的数据为固定的json格式，逻辑实现依赖百度地图WebAPI。
 
-map服务：
+####map服务：
 
 uri格式：map/{lati}/{longi}/{zoom}
 
@@ -48,15 +48,15 @@ spring boot部署到localhost时使用自带服务器，故对容器没有要求
 
 使用eclipse导入项目"adweblab2"，运行"Application.java"，即启动项目的服务，项目将被部署到localhost:8080，中断运行可停止服务。
 
-place服务调用示例：
+###place服务调用示例：
 
 在导航栏输入:“http://localhost:8080/place/复旦大学”
 
-map服务调用示例：
+###map服务调用示例：
 
 在导航栏输入：“http://localhost:8080/map/31.302398/121.510414/15”
 
-前端的运行：
+###前端的运行：
 
 在导航栏输入：“http://localhost:8080/index.html”
 
