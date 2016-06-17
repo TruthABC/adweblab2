@@ -40,7 +40,7 @@ uri格式：map/{lati}/{longi}/{zoom}
 
 使用maven开发项目，jar包依赖参考pom.xml。（参考项目开发环境：JDK1.8.0_73，eclipse mars）
 
-spring boot部署到localhost时使用自带服务器，故对容器没有要求。
+spring boot部署到localhost时使用spring boot内置的tomcat容器，故对容器没有要求。
 
 服务的逻辑实现依赖百度WebAPI，运行及使用项目的服务时需要保证机器联网。
 
@@ -65,49 +65,49 @@ spring boot部署到localhost时使用自带服务器，故对容器没有要求
 ![源代码目录](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/aKzArk1Qku0fdPCc3fvguXQgrVyGJgs9SSUz7Yi*Kbw!/r/dG8BAAAAAAAA)
 
 图1 源代码目录
+# 
 
 
 
+![启动服务](http://s368.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/z4LFSRRn6pwa7xpXirdbWjg7HRVQTKVsT9RJGFUqsqc!/b/dHABAAAAAAAA)
 
-![启动后台服务](http://s368.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/z4LFSRRn6pwa7xpXirdbWjg7HRVQTKVsT9RJGFUqsqc!/b/dHABAAAAAAAA)
-
-图2 启动后台服务
-
+图2 启动服务
+# 
 
 
 
 ![place服务示例](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/SDGCCGKivIuDXnx9Toe3taT4AFH66l0eQ51izKnTADQ!/r/dH0BAAAAAAAA)
 
 图3-1 place服务示例
-
+# 
 
 
 
 ![map服务示例](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/8ubZ82T2rn6N.ldgrp0ccBTiVyK*h77sJM6J7LN9ogg!/r/dHEBAAAAAAAA)
 
 图3-2 map服务示例
-
+# 
 
 
 
 ![map服务示例补充](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/3x7HKsmAuIXhFzt*m090hiXhhn0*42sYgCzDR3RGj38!/r/dHIBAAAAAAAA)
 
 图3-3 map服务示例补充（图片可以通过服务器相对地址由前端引用）
-
+# 
 
 
 
 ![前端首页面](http://s368.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/dS6*hYmcClsb6iBfiUt5zZTF8t6Svvqe0CCTTGncbeE!/b/dHABAAAAAAAA)
 
 图4-1 前端首页面
-
+# 
 
 
 
 ![前端调用place服务](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/HyNexox.HFmhylPXOxVzpmtdZhmZOBAoy828gLiasMY!/r/dOEAAAAAAAAA)
 
 图4-2 前端调用place服务
-
+# 
 
 
 
