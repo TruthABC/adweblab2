@@ -44,7 +44,7 @@ spring boot部署到localhost时使用自带服务器，故对容器没有要求
 
 ##4、部署及使用说明
 
-使用eclipse导入项目，运行Application.java，即启动项目的服务，可将项目部署到localhost:8080，中断运行即停止服务。
+使用eclipse导入项目"adweblab2"，运行"Application.java"，即启动项目的服务，项目将被部署到localhost:8080，中断运行可停止服务。
 
 place服务调用示例：
 
@@ -64,30 +64,50 @@ map服务调用示例：
 
 图1 源代码目录
 
+
+
+
 ![启动后台服务](http://s368.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/z4LFSRRn6pwa7xpXirdbWjg7HRVQTKVsT9RJGFUqsqc!/b/dHABAAAAAAAA)
 
 图2 启动后台服务
+
+
+
 
 ![place服务示例](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/SDGCCGKivIuDXnx9Toe3taT4AFH66l0eQ51izKnTADQ!/r/dH0BAAAAAAAA)
 
 图3-1 place服务示例
 
+
+
+
 ![map服务示例](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/8ubZ82T2rn6N.ldgrp0ccBTiVyK*h77sJM6J7LN9ogg!/r/dHEBAAAAAAAA)
 
 图3-2 map服务示例
- map服务结果1（本地路径下已产生图片）
+
+
+
 
 ![map服务示例补充](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/3x7HKsmAuIXhFzt*m090hiXhhn0*42sYgCzDR3RGj38!/r/dHIBAAAAAAAA)
 
 图3-3 map服务示例补充（图片可以通过服务器相对地址由前端引用）
 
+
+
+
 ![前端首页面](http://s368.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/dS6*hYmcClsb6iBfiUt5zZTF8t6Svvqe0CCTTGncbeE!/b/dHABAAAAAAAA)
 
 图4-1 前端首页面
 
+
+
+
 ![前端调用place服务](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/HyNexox.HFmhylPXOxVzpmtdZhmZOBAoy828gLiasMY!/r/dOEAAAAAAAAA)
 
 图4-2 前端调用place服务
+
+
+
 
 ![前端调用map服务](http://r.photo.store.qq.com/psb?/9b204d79-d74b-4541-b873-14a3a61ad6e6/nJkzXONTGtUGnmT16tEvPt*kJrJEL2noeWO6rbhLa7w!/r/dG8BAAAAAAAA)
 
