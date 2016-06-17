@@ -32,7 +32,7 @@ uri格式：map/{lati}/{longi}/{zoom}
 
 项目前台引用了后台的两个服务，实现为搜索地点并显示地点地图的web应用，另外，对于一个已显示的地点，可以通过操作微调地图范围及位置。
 
-项目前台本为基于Ionic、AngularJS的Hybrid移动应用，源代码：https://github.com/TruthABC/adweblab2_views/
+原项目前台为基于Ionic、AngularJS的Hybrid移动应用，源代码：https://github.com/TruthABC/adweblab2_views/
 
 为提交及检查的方便，已将前台项目使用spring boot部署到与后台同源的地址下，单独作为web应用可以直接使用，源代码：https://github.com/TruthABC/adweblab2/tree/master/src/main/resources/static
 
